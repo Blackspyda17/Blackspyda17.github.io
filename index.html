@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gilberth Andrés Páez | Senior Software Engineer & AI Systems Architect</title>
-  <meta name="description" content="Portfolio of Gilberth Andrés Páez Ortíz — Senior Software Engineer & AI Systems Architect | Full Stack (React, TypeScript, Node.js) · Mobile Lead (iOS, Android, Flutter) · Edge AI. 10+ years of engineering craft.">
+  <meta name="description" content="Portfolio of Gilberth Andrés Páez Ortíz — Senior Software Engineer & AI Systems Architect | Full Stack (React, TypeScript, Node.js) · Mobile Lead (iOS, Android, Flutter) · Edge AI. 16+ Production Apps Shipped, 1M+ Downloads.">
   
   <!-- Open Graph -->
   <meta property="og:title" content="Gilberth Andrés Páez | Senior Software Engineer & AI Systems Architect">
-  <meta property="og:description" content="Full Stack (React, TypeScript, Node.js) · Mobile Lead (iOS, Android, Flutter) · Edge AI. 10+ years of production engineering.">
+  <meta property="og:description" content="16+ Production Apps Shipped across App Store & Google Play • 1M+ Combined Downloads • Edge AI, Full Stack & Mobile Architecture.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://andrespaez.is-a.dev">
   
@@ -38,7 +38,7 @@
               400: '#2dd4bf',
               500: '#14b8a6',
               600: '#0d9488',
-              700: '#0A5C6D', // Deep Executive Teal
+              700: '#0A5C6D',
               800: '#074857',
               900: '#043440',
             },
@@ -62,7 +62,7 @@
       font-family: 'Plus Jakarta Sans', sans-serif;
     }
     .glow-teal {
-      box-shadow: 0 0 40px -10px rgba(10, 92, 109, 0.45);
+      box-shadow: 0 0 45px -10px rgba(10, 92, 109, 0.45);
     }
     .badge-pill {
       display: inline-flex;
@@ -72,6 +72,25 @@
       font-size: 0.75rem;
       font-weight: 500;
       letter-spacing: 0.02em;
+    }
+    .store-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0.45rem 0.85rem;
+      border-radius: 0.65rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      transition: all 0.2s ease;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background-color: rgba(17, 24, 39, 0.85);
+      color: #e2e8f0;
+    }
+    .store-btn:hover {
+      background-color: rgba(31, 41, 55, 1);
+      border-color: rgba(45, 212, 191, 0.4);
+      color: #ffffff;
+      transform: translateY(-1px);
     }
   </style>
 </head>
@@ -92,10 +111,11 @@
 
       <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-dark-muted">
         <a href="#about" class="hover:text-teal-400 transition-colors">About</a>
-        <a href="#pillars" class="hover:text-teal-400 transition-colors">Core Disciplines</a>
-        <a href="#case-studies" class="hover:text-teal-400 transition-colors">Production Systems</a>
+        <a href="#featured-apps" class="hover:text-teal-400 transition-colors">Flagship Apps</a>
+        <a href="#app-directory" class="hover:text-teal-400 transition-colors">16+ Production Apps</a>
+        <a href="#ui-ux" class="hover:text-teal-400 transition-colors">UI/UX & Design</a>
         <a href="#stack" class="hover:text-teal-400 transition-colors">Tech Matrix</a>
-        <a href="#leadership" class="hover:text-teal-400 transition-colors">Leadership & Academia</a>
+        <a href="#leadership" class="hover:text-teal-400 transition-colors">Leadership</a>
         <a href="#contact" class="hover:text-teal-400 transition-colors">Contact</a>
       </nav>
 
@@ -126,7 +146,7 @@
             Open to Senior, Lead & Architecture Roles • 100% Remote (Worldwide / US / LATAM)
           </div>
 
-          <!-- Canonical Headline -->
+          <!-- Headline -->
           <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-[1.15] mb-4">
             Senior Software Engineer & <span class="bg-gradient-to-r from-teal-400 via-cyan-300 to-sky-400 bg-clip-text text-transparent">AI Systems Architect</span>
           </h1>
@@ -141,19 +161,20 @@
           </div>
 
           <p class="text-base sm:text-lg text-slate-300 font-normal leading-relaxed mb-8">
-            I’m <strong class="text-white font-semibold">Gilberth Andrés Páez Ortíz</strong>. With over a decade of production craft, 
-            I bridge the gap between <span class="text-teal-300 font-medium">production AI & Edge intelligence</span> (on-device SLMs, RAG, ONNX), 
-            <span class="text-cyan-300 font-medium">scalable full-stack backends</span> (React, TypeScript, Node.js, Python, PostgreSQL), and 
-            <span class="text-emerald-300 font-medium">enterprise mobile ecosystems</span> (iOS, Android, Flutter, and wearable biometrics).
+            I’m <strong class="text-white font-semibold">Gilberth Andrés Páez Ortíz</strong>. Over a decade of engineering craft delivering 
+            <span class="text-teal-300 font-semibold">16+ production applications</span> with combined downloads exceeding 
+            <span class="text-white font-bold underline decoration-teal-400 underline-offset-4">1,000,000+ users</span>. 
+            I bridge production AI & Edge intelligence (SLMs, RAG, ONNX), scalable full-stack backends (Node.js, Python, PostgreSQL), 
+            and enterprise mobile systems (iOS, Android, Flutter, and wearable biometrics).
           </p>
 
           <div class="flex flex-wrap items-center gap-4">
-            <a href="#case-studies" class="px-6 py-3.5 rounded-xl bg-gradient-to-r from-brand-700 to-teal-500 text-white font-semibold text-sm shadow-lg shadow-teal-900/40 hover:shadow-teal-700/50 hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center gap-2">
-              <span>View Case Studies</span>
+            <a href="#featured-apps" class="px-6 py-3.5 rounded-xl bg-gradient-to-r from-brand-700 to-teal-500 text-white font-semibold text-sm shadow-lg shadow-teal-900/40 hover:shadow-teal-700/50 hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center gap-2">
+              <span>Explore Flagship Apps</span>
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
             </a>
-            <a href="#contact" class="px-6 py-3.5 rounded-xl bg-dark-card border border-dark-border text-slate-200 font-semibold text-sm hover:bg-dark-border hover:text-white transition-all">
-              Contact Me
+            <a href="#app-directory" class="px-6 py-3.5 rounded-xl bg-dark-card border border-dark-border text-slate-200 font-semibold text-sm hover:bg-dark-border hover:text-white transition-all">
+              View All 16+ Apps
             </a>
             <a href="https://www.linkedin.com/in/gilberth-andr%C3%A9s-paez-ortiz-a03bb0114/" target="_blank" rel="noopener noreferrer" class="px-4 py-3.5 rounded-xl text-dark-muted hover:text-white transition-colors text-sm font-medium flex items-center gap-1.5">
               <span>LinkedIn</span>
@@ -165,220 +186,176 @@
         <!-- Metrics Grid -->
         <div class="w-full lg:w-80 grid grid-cols-2 gap-4">
           <div class="p-5 rounded-2xl bg-dark-card/90 border border-dark-border flex flex-col justify-between">
-            <span class="text-3xl font-extrabold text-white font-mono">10+</span>
-            <span class="text-xs text-dark-muted font-medium mt-1">Years of Full-Lifecycle Engineering</span>
+            <span class="text-3xl font-extrabold text-teal-400 font-mono">1M+</span>
+            <span class="text-xs text-dark-muted font-medium mt-1">Combined Production Downloads</span>
           </div>
           <div class="p-5 rounded-2xl bg-dark-card/90 border border-dark-border flex flex-col justify-between">
-            <span class="text-3xl font-extrabold text-teal-400 font-mono">Lead</span>
-            <span class="text-xs text-dark-muted font-medium mt-1">Mobile & Cross-Functional Teams (10+ Eng)</span>
+            <span class="text-3xl font-extrabold text-white font-mono">16+</span>
+            <span class="text-xs text-dark-muted font-medium mt-1">Production Applications Shipped</span>
           </div>
           <div class="p-5 rounded-2xl bg-dark-card/90 border border-dark-border flex flex-col justify-between">
-            <span class="text-3xl font-extrabold text-cyan-400 font-mono">M.Sc.</span>
-            <span class="text-xs text-dark-muted font-medium mt-1">ICT for Org Management (UCR)</span>
+            <span class="text-3xl font-extrabold text-cyan-400 font-mono">10+</span>
+            <span class="text-xs text-dark-muted font-medium mt-1">Years of Full-Lifecycle Craft</span>
           </div>
           <div class="p-5 rounded-2xl bg-dark-card/90 border border-dark-border flex flex-col justify-between">
-            <span class="text-3xl font-extrabold text-emerald-400 font-mono">Prof.</span>
-            <span class="text-xs text-dark-muted font-medium mt-1">Former CS Professor (UCR & Fidélitas)</span>
+            <span class="text-3xl font-extrabold text-emerald-400 font-mono">M.Sc.</span>
+            <span class="text-xs text-dark-muted font-medium mt-1">ICT Management & CS Professor</span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- THE 3 CANONICAL PILLARS -->
-  <section id="pillars" class="py-16 border-t border-dark-border bg-dark-surface/40">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center max-w-2xl mx-auto mb-12">
-        <span class="text-xs font-mono font-semibold tracking-wider text-teal-400 uppercase">Strategic Capabilities</span>
-        <h2 class="text-3xl font-extrabold text-white tracking-tight mt-1">Harmonized Engineering Disciplines</h2>
-        <p class="text-dark-muted text-sm mt-2">The exact pillars driving high-impact technical delivery from architecture to deployment.</p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <!-- Pillar 1: Full Stack -->
-        <div class="p-7 rounded-2xl bg-dark-card border border-dark-border hover:border-teal-500/30 transition-all flex flex-col justify-between">
-          <div>
-            <div class="w-11 h-11 rounded-xl bg-teal-500/10 text-teal-300 flex items-center justify-center text-xl mb-4">💻</div>
-            <h3 class="text-lg font-bold text-white mb-2">Full Stack Architecture</h3>
-            <p class="text-xs font-mono text-teal-400 mb-3">React • TypeScript • Node.js • Python</p>
-            <p class="text-xs text-slate-300 leading-relaxed mb-4">
-              Building resilient cloud backends, microservices, and interactive web frontends. Relational schema modeling in PostgreSQL (RLS, RPCs), Redis caching, Databricks data lakehouse pipelines, and OpenAPI REST/GraphQL contracts.
-            </p>
-          </div>
-          <div class="flex flex-wrap gap-1.5 pt-4 border-t border-dark-border">
-            <span class="badge-pill bg-teal-950 text-teal-300 text-[10px]">React / Next.js</span>
-            <span class="badge-pill bg-teal-950 text-teal-300 text-[10px]">TypeScript</span>
-            <span class="badge-pill bg-teal-950 text-teal-300 text-[10px]">Node.js</span>
-            <span class="badge-pill bg-teal-950 text-teal-300 text-[10px]">PostgreSQL</span>
-          </div>
-        </div>
-
-        <!-- Pillar 2: Mobile Lead -->
-        <div class="p-7 rounded-2xl bg-dark-card border border-dark-border hover:border-cyan-500/30 transition-all flex flex-col justify-between">
-          <div>
-            <div class="w-11 h-11 rounded-xl bg-cyan-500/10 text-cyan-300 flex items-center justify-center text-xl mb-4">📱</div>
-            <h3 class="text-lg font-bold text-white mb-2">Mobile Leadership</h3>
-            <p class="text-xs font-mono text-cyan-400 mb-3">iOS (Swift) • Android (Kotlin) • Flutter</p>
-            <p class="text-xs text-slate-300 leading-relaxed mb-4">
-              A decade of enterprise mobile delivery for Fortune 50 retail (The Home Depot), banking (Coopecaja), FDA clinical trials, and health telemetry. Clean Architecture, MVVM/BLoC, Server-Driven UI, watchOS (HealthKit), and Wear OS (Health Connect).
-            </p>
-          </div>
-          <div class="flex flex-wrap gap-1.5 pt-4 border-t border-dark-border">
-            <span class="badge-pill bg-cyan-950 text-cyan-300 text-[10px]">Swift / iOS</span>
-            <span class="badge-pill bg-cyan-950 text-cyan-300 text-[10px]">Kotlin / Android</span>
-            <span class="badge-pill bg-cyan-950 text-cyan-300 text-[10px]">Flutter</span>
-            <span class="badge-pill bg-cyan-950 text-cyan-300 text-[10px]">Wearables</span>
-          </div>
-        </div>
-
-        <!-- Pillar 3: Edge AI & Systems -->
-        <div class="p-7 rounded-2xl bg-dark-card border border-dark-border hover:border-emerald-500/30 transition-all flex flex-col justify-between">
-          <div>
-            <div class="w-11 h-11 rounded-xl bg-emerald-500/10 text-emerald-300 flex items-center justify-center text-xl mb-4">🧠</div>
-            <h3 class="text-lg font-bold text-white mb-2">Edge AI & Systems</h3>
-            <p class="text-xs font-mono text-emerald-400 mb-3">On-Device SLMs • RAG • ONNX Runtime</p>
-            <p class="text-xs text-slate-300 leading-relaxed mb-4">
-              Deploying cutting-edge AI architectures combining cloud LLMs (Gemini, Claude) with local on-device SLMs (Qwen3.5), ONNX embeddings, and vector databases (ObjectBox). Power practitioner of agentic workflows with Claude Code.
-            </p>
-          </div>
-          <div class="flex flex-wrap gap-1.5 pt-4 border-t border-dark-border">
-            <span class="badge-pill bg-emerald-950 text-emerald-300 text-[10px]">On-Device SLMs</span>
-            <span class="badge-pill bg-emerald-950 text-emerald-300 text-[10px]">Hybrid RAG</span>
-            <span class="badge-pill bg-emerald-950 text-emerald-300 text-[10px]">ONNX C++</span>
-            <span class="badge-pill bg-emerald-950 text-emerald-300 text-[10px]">ObjectBox</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CASE STUDIES / FEATURED PRODUCTION ARCHITECTURES -->
-  <section id="case-studies" class="py-20 border-t border-dark-border bg-dark-bg/60">
+  <!-- FEATURED FLAGSHIP APPS WITH STORE BADGES -->
+  <section id="featured-apps" class="py-20 border-t border-dark-border bg-dark-bg/60">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="mb-14">
-        <span class="text-xs font-mono font-semibold tracking-wider text-teal-400 uppercase">Architecture & Execution</span>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mt-1">Featured Production Systems</h2>
-        <p class="text-dark-muted text-base mt-2 max-w-2xl">Proven engineering delivered across AI startups, Fortune 50 enterprise platforms, regulated healthcare, and financial institutions.</p>
+        <span class="text-xs font-mono font-semibold tracking-wider text-teal-400 uppercase">Live Proof of Delivery</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mt-1">Flagship Products & Production Systems</h2>
+        <p class="text-dark-muted text-base mt-2 max-w-2xl">Applications architected, developed, or scaled with direct live links to the Apple App Store, Google Play, and Open Source repositories.</p>
       </div>
 
       <div class="space-y-8">
 
-        <!-- CASE STUDY 1: DreamIQ -->
-        <article id="dreamiq" class="p-7 sm:p-9 rounded-3xl bg-dark-card border border-dark-border hover:border-teal-500/40 transition-all glow-teal">
+        <!-- 1. DreamIQ -->
+        <article class="p-7 sm:p-9 rounded-3xl bg-dark-card border border-dark-border hover:border-teal-500/40 transition-all glow-teal">
           <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6 pb-6 border-b border-dark-border">
             <div>
               <div class="flex items-center gap-3 flex-wrap">
                 <span class="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-teal-900/60 text-teal-300 border border-teal-500/30">Edge AI & Full Stack</span>
-                <span class="text-xs font-mono text-dark-muted">Sep 2025 – Present</span>
+                <span class="text-xs font-mono text-dark-muted">2025 – Present</span>
               </div>
-              <h3 class="text-2xl font-bold text-white mt-2">DreamIQ — Production Dual-AI Pipeline & On-Device RAG</h3>
+              <h3 class="text-2xl font-bold text-white mt-2">DreamIQ — AI Sleep Companion & On-Device RAG</h3>
               <p class="text-sm font-medium text-teal-400">Founding Full Stack & AI Systems Engineer / Lead Developer</p>
             </div>
-            <div class="flex items-center gap-2">
-              <span class="badge-pill bg-slate-800 text-slate-300 border border-slate-700">Cloud LLMs • On-Device SLMs • Wearables</span>
+            <!-- Live Store Badges -->
+            <div class="flex flex-wrap items-center gap-2">
+              <a href="https://apps.apple.com/us/app/dreamiq-no-more-bad-nights/id6754757247" target="_blank" rel="noopener noreferrer" class="store-btn">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.84c.64-.78 1.08-1.86.96-2.95-1 .04-2.16.66-2.84 1.45-.6.69-1.12 1.79-.98 2.87 1.11.08 2.22-.59 2.86-1.37Z"/></svg>
+                <span>App Store</span>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.dreamiq.app" target="_blank" rel="noopener noreferrer" class="store-btn">
+                <svg class="w-4 h-4 fill-current text-emerald-400" viewBox="0 0 24 24"><path d="M3.609 1.814L13.793 12 3.61 22.186c-.342-.317-.61-.83-.61-1.506V3.32c0-.676.268-1.189.61-1.506zM15.207 13.414l2.455 2.455-12.72 7.214 10.265-9.669zm2.455-5.283L15.207 10.586 4.942.917l12.72 7.214zM16.621 12l2.971-1.688c.846-.481.846-1.263 0-1.744L16.621 12zm0 0l2.971 1.688c.846.481.846 1.263 0 1.744L16.621 12z"/></svg>
+                <span>Google Play</span>
+              </a>
+              <a href="https://dreamiq.app" target="_blank" rel="noopener noreferrer" class="store-btn text-teal-300 border-teal-500/40">
+                <span>dreamiq.app ↗</span>
+              </a>
             </div>
           </div>
 
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div class="lg:col-span-2 space-y-4 text-slate-300 text-sm leading-relaxed">
               <p>
-                Co-founded and engineered the full-stack architecture of an AI sleep companion platform from 0 to 1 serving active users across web, mobile, and wearable ecosystems.
+                Co-founded and architected the full-stack system from 0 to 1 serving active users across iOS, Android, watchOS, and Wear OS.
               </p>
               <ul class="space-y-2.5 list-disc list-inside text-slate-300">
-                <li><strong class="text-white">Dual AI & Edge RAG:</strong> Engineered a hybrid intelligence pipeline combining cloud orchestration (Gemini / Claude) with local on-device SLMs (Qwen3.5), ONNX embeddings, and vector indexing (ObjectBox) for real-time offline sleep telemetry insights.</li>
-                <li><strong class="text-white">C++/Kotlin Optimization:</strong> Authored custom patches for <code class="text-teal-300 font-mono text-xs">flutter_onnxruntime</code> offloading matrix multiplications to <code class="text-teal-300 font-mono text-xs">Dispatchers.IO</code>, completely eliminating UI thread stutter.</li>
-                <li><strong class="text-white">Cloud Backend & Edge Services:</strong> Built the entire backend infrastructure on Supabase (PostgreSQL, Row-Level Security, RPCs, TypeScript Edge Functions) and Node.js microservices for data synchronization, content ingestion, and user analytics.</li>
+                <li><strong class="text-white">Dual AI & Edge RAG:</strong> Combines cloud LLMs (Gemini, Claude) with local on-device SLMs (Qwen3.5), ONNX embeddings, and ObjectBox vector indexing for real-time offline sleep telemetry insights.</li>
+                <li><strong class="text-white">C++/Kotlin Optimization:</strong> Authored custom patches for <code class="text-teal-300 font-mono text-xs">flutter_onnxruntime</code> offloading matrix multiplications to <code class="text-teal-300 font-mono text-xs">Dispatchers.IO</code>, completely eliminating UI stutter.</li>
+                <li><strong class="text-white">Full-Stack Cloud:</strong> Supabase (PostgreSQL, Row-Level Security, RPCs, TypeScript Edge Functions) and Node.js microservices.</li>
               </ul>
             </div>
             <div class="bg-dark-surface p-5 rounded-2xl border border-dark-border flex flex-col justify-between">
               <div>
                 <span class="text-xs font-mono font-semibold text-dark-muted uppercase">Tech Stack</span>
                 <div class="flex flex-wrap gap-1.5 mt-3">
+                  <span class="badge-pill bg-teal-950 text-teal-300 border border-teal-800">Flutter</span>
                   <span class="badge-pill bg-teal-950 text-teal-300 border border-teal-800">ONNX Runtime</span>
                   <span class="badge-pill bg-teal-950 text-teal-300 border border-teal-800">Qwen SLMs</span>
                   <span class="badge-pill bg-teal-950 text-teal-300 border border-teal-800">ObjectBox Vector DB</span>
                   <span class="badge-pill bg-teal-950 text-teal-300 border border-teal-800">Supabase</span>
-                  <span class="badge-pill bg-teal-950 text-teal-300 border border-teal-800">PostgreSQL (RLS)</span>
-                  <span class="badge-pill bg-teal-950 text-teal-300 border border-teal-800">TypeScript / Node</span>
-                  <span class="badge-pill bg-teal-950 text-teal-300 border border-teal-800">Flutter / Wearables</span>
+                  <span class="badge-pill bg-teal-950 text-teal-300 border border-teal-800">TypeScript</span>
                 </div>
               </div>
               <div class="mt-6 pt-4 border-t border-dark-border text-xs text-dark-muted">
-                Key Impact: <strong>Sub-100ms offline vector search</strong> + 30% reduction in cloud inference costs.
+                Key Result: <strong>Sub-100ms offline vector search</strong> with zero UI frame lag.
               </div>
             </div>
           </div>
         </article>
 
-        <!-- CASE STUDY 2: DNAMIC / Databricks & Cardiogram -->
-        <article id="dnamic" class="p-7 sm:p-9 rounded-3xl bg-dark-card border border-dark-border hover:border-cyan-500/40 transition-all">
+        <!-- 2. Cardiogram Inc. -->
+        <article class="p-7 sm:p-9 rounded-3xl bg-dark-card border border-dark-border hover:border-rose-500/40 transition-all">
           <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6 pb-6 border-b border-dark-border">
             <div>
               <div class="flex items-center gap-3 flex-wrap">
-                <span class="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-cyan-950/70 text-cyan-300 border border-cyan-500/30">Backend & Health Sensors</span>
-                <span class="text-xs font-mono text-dark-muted">Feb 2025 – Mar 2026</span>
+                <span class="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-rose-950/60 text-rose-300 border border-rose-500/30">HealthTech & Sensor Telemetry</span>
+                <span class="text-xs font-mono text-dark-muted">2025 – 2026</span>
               </div>
-              <h3 class="text-2xl font-bold text-white mt-2">DNAMIC / Databricks & Cardiogram — Distributed Telemetry & Analytics</h3>
-              <p class="text-sm font-medium text-cyan-400">Senior Mobile & Full-Stack Developer (Consulting)</p>
+              <h3 class="text-2xl font-bold text-white mt-2">Cardiogram — HeartIQ & Continuous Biometrics</h3>
+              <p class="text-sm font-medium text-rose-400">Senior Mobile & Full-Stack Developer (via DNAMIC / Databricks)</p>
             </div>
-            <div class="flex items-center gap-2">
-              <span class="badge-pill bg-slate-800 text-slate-300 border border-slate-700">Databricks • Node.js • HealthKit • Wear OS</span>
+            <!-- Live Store Badges -->
+            <div class="flex flex-wrap items-center gap-2">
+              <a href="https://apps.apple.com/us/app/cardiogram-heartiq-migraineiq/id1000017994" target="_blank" rel="noopener noreferrer" class="store-btn">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.84c.64-.78 1.08-1.86.96-2.95-1 .04-2.16.66-2.84 1.45-.6.69-1.12 1.79-.98 2.87 1.11.08 2.22-.59 2.86-1.37Z"/></svg>
+                <span>App Store</span>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.cardiogram.v1" target="_blank" rel="noopener noreferrer" class="store-btn">
+                <svg class="w-4 h-4 fill-current text-emerald-400" viewBox="0 0 24 24"><path d="M3.609 1.814L13.793 12 3.61 22.186c-.342-.317-.61-.83-.61-1.506V3.32c0-.676.268-1.189.61-1.506zM15.207 13.414l2.455 2.455-12.72 7.214 10.265-9.669zm2.455-5.283L15.207 10.586 4.942.917l12.72 7.214zM16.621 12l2.971-1.688c.846-.481.846-1.263 0-1.744L16.621 12zm0 0l2.971 1.688c.846.481.846 1.263 0 1.744L16.621 12z"/></svg>
+                <span>Google Play</span>
+              </a>
             </div>
           </div>
 
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div class="lg:col-span-2 space-y-4 text-slate-300 text-sm leading-relaxed">
               <p>
-                Architected enterprise backend pipelines and high-throughput mobile integrations connecting distributed Databricks data lakehouses to interactive client applications for continuous health analytics.
+                Architected native bridges and backend pipelines handling high-frequency sensor streams from Apple Watch and Wear OS for continuous cardiovascular condition monitoring.
               </p>
               <ul class="space-y-2.5 list-disc list-inside text-slate-300">
-                <li><strong class="text-white">Distributed Backend Pipelines:</strong> Built backend integration patterns in Node.js/TypeScript and distributed worker queues connecting high-frequency biometric streams to enterprise analytics, cutting analytical query latency by <strong>35%</strong>.</li>
-                <li><strong class="text-white">Biometric Sensor Integration:</strong> Engineered native bridges (Swift, Kotlin) linking low-level sensor streams (PPG, heart rate, accelerometers) to the JavaScript layer and HealthKit / Wear OS (Health Connect), with secure data flows to third-party healthcare systems (Epic EHR).</li>
+                <li><strong class="text-white">Sensor Bridges:</strong> Developed high-performance native bridges in Swift and Kotlin connecting UI layers directly to PPG, accelerometer, and heart rate telemetry.</li>
+                <li><strong class="text-white">HealthKit & Wear OS:</strong> Integrated Combine for reactive state management, HealthKit background deliveries, and bridged WearOS 2 (Google Fit) to WearOS 3 (Health Connect).</li>
+                <li><strong class="text-white">EHR Systems:</strong> Connected client data streams to Node.js servers and healthcare integrations (Epic EHR).</li>
               </ul>
             </div>
             <div class="bg-dark-surface p-5 rounded-2xl border border-dark-border flex flex-col justify-between">
               <div>
                 <span class="text-xs font-mono font-semibold text-dark-muted uppercase">Tech Stack</span>
                 <div class="flex flex-wrap gap-1.5 mt-3">
-                  <span class="badge-pill bg-cyan-950 text-cyan-300 border border-cyan-800">Databricks</span>
-                  <span class="badge-pill bg-cyan-950 text-cyan-300 border border-cyan-800">Node.js</span>
-                  <span class="badge-pill bg-cyan-950 text-cyan-300 border border-cyan-800">TypeScript</span>
-                  <span class="badge-pill bg-cyan-950 text-cyan-300 border border-cyan-800">Swift / Combine</span>
-                  <span class="badge-pill bg-cyan-950 text-cyan-300 border border-cyan-800">Kotlin / Compose</span>
-                  <span class="badge-pill bg-cyan-950 text-cyan-300 border border-cyan-800">Epic Healthcare</span>
+                  <span class="badge-pill bg-rose-950 text-rose-300 border border-rose-800">Swift</span>
+                  <span class="badge-pill bg-rose-950 text-rose-300 border border-rose-800">Kotlin</span>
+                  <span class="badge-pill bg-rose-950 text-rose-300 border border-rose-800">HealthKit</span>
+                  <span class="badge-pill bg-rose-950 text-rose-300 border border-rose-800">Health Connect</span>
+                  <span class="badge-pill bg-rose-950 text-rose-300 border border-rose-800">Databricks</span>
+                  <span class="badge-pill bg-rose-950 text-rose-300 border border-rose-800">Node.js</span>
                 </div>
               </div>
               <div class="mt-6 pt-4 border-t border-dark-border text-xs text-dark-muted">
-                Key Impact: <strong>35% query latency drop</strong> + real-time ingestion of continuous biometric feeds.
+                Key Impact: <strong>Continuous biometric ingestion</strong> across millions of health monitor sessions.
               </div>
             </div>
           </div>
         </article>
 
-        <!-- CASE STUDY 3: The Home Depot -->
+        <!-- 3. The Home Depot -->
         <article class="p-7 sm:p-9 rounded-3xl bg-dark-card border border-dark-border hover:border-orange-500/40 transition-all">
           <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6 pb-6 border-b border-dark-border">
             <div>
               <div class="flex items-center gap-3 flex-wrap">
                 <span class="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-orange-950/60 text-orange-300 border border-orange-500/30">Fortune 50 Enterprise</span>
-                <span class="text-xs font-mono text-dark-muted">Dec 2022 – Jul 2023</span>
+                <span class="text-xs font-mono text-dark-muted">2022 – 2023</span>
               </div>
-              <h3 class="text-2xl font-bold text-white mt-2">The Home Depot — High-Concurrency Retail Scaling</h3>
+              <h3 class="text-2xl font-bold text-white mt-2">The Home Depot — High-Concurrency Consumer App</h3>
               <p class="text-sm font-medium text-orange-400">Senior iOS Developer (via Infoya)</p>
             </div>
+            <!-- Live Store Badge -->
             <div class="flex items-center gap-2">
-              <span class="badge-pill bg-slate-800 text-slate-300 border border-slate-700">Swift • Enterprise Caching • Multi-Team</span>
+              <a href="https://apps.apple.com/us/app/the-home-depot/id342527639" target="_blank" rel="noopener noreferrer" class="store-btn">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.84c.64-.78 1.08-1.86.96-2.95-1 .04-2.16.66-2.84 1.45-.6.69-1.12 1.79-.98 2.87 1.11.08 2.22-.59 2.86-1.37Z"/></svg>
+                <span>App Store</span>
+              </a>
             </div>
           </div>
 
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div class="lg:col-span-2 space-y-4 text-slate-300 text-sm leading-relaxed">
               <p>
-                Engineered consumer-facing catalog, checkout, and search features for The Home Depot, optimizing distributed caching, API throughput, and service reliability during heavy retail concurrency events.
+                Delivered consumer-facing catalog, search, and checkout features for The Home Depot enterprise iOS application used by millions of active shoppers.
               </p>
               <ul class="space-y-2.5 list-disc list-inside text-slate-300">
-                <li><strong class="text-white">Render & Network Layer Profiling:</strong> Identified critical database read and network bottlenecks, driving a <strong>20% enhancement in UX performance</strong> and a <strong>10% increase in user retention</strong>.</li>
-                <li><strong class="text-white">Engineering Rigor:</strong> Mentored junior developers and established code review and architectural standards across cross-functional teams.</li>
+                <li><strong class="text-white">Render & Networking Optimization:</strong> Profiled asynchronous networking and UIKit rendering cycles in Swift, driving a <strong>20% enhancement in UX performance</strong> and a <strong>10% increase in user retention</strong>.</li>
+                <li><strong class="text-white">Modular Architecture:</strong> Enforced VIPER/MVVM patterns, established code review rigor, and aligned cross-functional teams across multiple geographic regions.</li>
               </ul>
             </div>
             <div class="bg-dark-surface p-5 rounded-2xl border border-dark-border flex flex-col justify-between">
@@ -386,63 +363,475 @@
                 <span class="text-xs font-mono font-semibold text-dark-muted uppercase">Tech Stack</span>
                 <div class="flex flex-wrap gap-1.5 mt-3">
                   <span class="badge-pill bg-orange-950 text-orange-300 border border-orange-800">Swift</span>
-                  <span class="badge-pill bg-orange-950 text-orange-300 border border-orange-800">VIPER / MVVM</span>
+                  <span class="badge-pill bg-orange-950 text-orange-300 border border-orange-800">UIKit / SwiftUI</span>
+                  <span class="badge-pill bg-orange-950 text-orange-300 border border-orange-800">VIPER</span>
                   <span class="badge-pill bg-orange-950 text-orange-300 border border-orange-800">Distributed Caching</span>
                   <span class="badge-pill bg-orange-950 text-orange-300 border border-orange-800">Instruments</span>
-                  <span class="badge-pill bg-orange-950 text-orange-300 border border-orange-800">Enterprise CI/CD</span>
                 </div>
               </div>
               <div class="mt-6 pt-4 border-t border-dark-border text-xs text-dark-muted">
-                Key Impact: <strong>+20% UX performance boost</strong> on millions of active customer transactions.
+                Key Impact: <strong>+20% UX performance boost</strong> on millions of daily retail sessions.
               </div>
             </div>
           </div>
         </article>
 
-        <!-- CASE STUDY 4: Coopecaja & Establishment Labs Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <!-- Coopecaja -->
-          <article id="coopecaja" class="p-7 rounded-3xl bg-dark-card border border-dark-border hover:border-blue-500/40 transition-all flex flex-col justify-between">
+        <!-- 4. Rappi & Rappi Partner Growth -->
+        <article class="p-7 sm:p-9 rounded-3xl bg-dark-card border border-dark-border hover:border-red-500/40 transition-all">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6 pb-6 border-b border-dark-border">
             <div>
-              <div class="flex items-center gap-2 mb-3">
-                <span class="px-2.5 py-0.5 rounded-full text-xs font-bold uppercase bg-blue-950 text-blue-300 border border-blue-800">FinTech & Full Stack</span>
-                <span class="text-xs font-mono text-dark-muted">2023 – 2024</span>
+              <div class="flex items-center gap-3 flex-wrap">
+                <span class="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-red-950/60 text-red-300 border border-red-500/30">Hyper-Growth Unicorn</span>
+                <span class="text-xs font-mono text-dark-muted">2019 – 2020</span>
               </div>
-              <h4 class="text-xl font-bold text-white mb-2">Coopecaja — Transactional Banking Architecture</h4>
-              <p class="text-xs text-blue-400 font-medium mb-4">Senior Mobile Developer (Atom Soluciones)</p>
-              <p class="text-sm text-slate-300 leading-relaxed mb-4">
-                Architected high-availability transactional banking services from scratch. Designed RESTful API contracts in <strong>Node.js and TypeScript via OpenAPI/Swagger</strong>, modeled resilient PostgreSQL schemas with automated zero-downtime migrations, and built cross-platform client apps using <strong>Flutter and Server-Driven UI</strong> under strict financial regulatory compliance.
-              </p>
+              <h3 class="text-2xl font-bold text-white mt-2">Rappi & Rappi Partner Growth — On-Demand Marketplace</h3>
+              <p class="text-sm font-medium text-red-400">Android Developer (Rappi Inc.)</p>
             </div>
-            <div class="pt-4 border-t border-dark-border flex flex-wrap gap-1.5">
-              <span class="badge-pill bg-blue-950 text-blue-300 border border-blue-900">Node.js / TS</span>
-              <span class="badge-pill bg-blue-950 text-blue-300 border border-blue-900">PostgreSQL</span>
-              <span class="badge-pill bg-blue-950 text-blue-300 border border-blue-900">Clean Architecture</span>
-              <span class="badge-pill bg-blue-950 text-blue-300 border border-blue-900">Flutter</span>
+            <!-- Live Store Badges -->
+            <div class="flex flex-wrap items-center gap-2">
+              <a href="https://play.google.com/store/apps/details?id=com.grability.rappi&hl=es_CR" target="_blank" rel="noopener noreferrer" class="store-btn">
+                <svg class="w-4 h-4 fill-current text-emerald-400" viewBox="0 0 24 24"><path d="M3.609 1.814L13.793 12 3.61 22.186c-.342-.317-.61-.83-.61-1.506V3.32c0-.676.268-1.189.61-1.506zM15.207 13.414l2.455 2.455-12.72 7.214 10.265-9.669zm2.455-5.283L15.207 10.586 4.942.917l12.72 7.214zM16.621 12l2.971-1.688c.846-.481.846-1.263 0-1.744L16.621 12zm0 0l2.971 1.688c.846.481.846 1.263 0 1.744L16.621 12z"/></svg>
+                <span>Rappi Consumer</span>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.rappi.partners" target="_blank" rel="noopener noreferrer" class="store-btn">
+                <svg class="w-4 h-4 fill-current text-emerald-400" viewBox="0 0 24 24"><path d="M3.609 1.814L13.793 12 3.61 22.186c-.342-.317-.61-.83-.61-1.506V3.32c0-.676.268-1.189.61-1.506zM15.207 13.414l2.455 2.455-12.72 7.214 10.265-9.669zm2.455-5.283L15.207 10.586 4.942.917l12.72 7.214zM16.621 12l2.971-1.688c.846-.481.846-1.263 0-1.744L16.621 12zm0 0l2.971 1.688c.846.481.846 1.263 0 1.744L16.621 12z"/></svg>
+                <span>Rappi Partner Growth</span>
+              </a>
             </div>
-          </article>
+          </div>
 
-          <!-- Establishment Labs -->
-          <article class="p-7 rounded-3xl bg-dark-card border border-dark-border hover:border-purple-500/40 transition-all flex flex-col justify-between">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="lg:col-span-2 space-y-4 text-slate-300 text-sm leading-relaxed">
+              <p>
+                Built Android UI components and engineered load-time optimizations for Latin America’s largest on-demand super app and merchant partner growth ecosystem.
+              </p>
+              <ul class="space-y-2.5 list-disc list-inside text-slate-300">
+                <li><strong class="text-white">High-Throughput Optimization:</strong> Optimized memory allocations, view hierarchies, and caching for ultra-responsive catalog navigation across low-end and high-end Android hardware.</li>
+                <li><strong class="text-white">Partner Growth Suite:</strong> Developed merchant-facing analytics, inventory management, and automated order dispatch modules.</li>
+              </ul>
+            </div>
+            <div class="bg-dark-surface p-5 rounded-2xl border border-dark-border flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-semibold text-dark-muted uppercase">Tech Stack</span>
+                <div class="flex flex-wrap gap-1.5 mt-3">
+                  <span class="badge-pill bg-red-950 text-red-300 border border-red-800">Kotlin</span>
+                  <span class="badge-pill bg-red-950 text-red-300 border border-red-800">Java</span>
+                  <span class="badge-pill bg-red-950 text-red-300 border border-red-800">MVVM / Clean</span>
+                  <span class="badge-pill bg-red-950 text-red-300 border border-red-800">RxJava</span>
+                  <span class="badge-pill bg-red-950 text-red-300 border border-red-800">Marketplace APIs</span>
+                </div>
+              </div>
+              <div class="mt-6 pt-4 border-t border-dark-border text-xs text-dark-muted">
+                Key Impact: <strong>10M+ downloads</strong> operating at hyperscale.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5. kölbi & kölbi+ (Telecom) -->
+        <article class="p-7 sm:p-9 rounded-3xl bg-dark-card border border-dark-border hover:border-yellow-500/40 transition-all">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6 pb-6 border-b border-dark-border">
             <div>
-              <div class="flex items-center gap-2 mb-3">
-                <span class="px-2.5 py-0.5 rounded-full text-xs font-bold uppercase bg-purple-950 text-purple-300 border border-purple-800">FDA Regulated Medical</span>
+              <div class="flex items-center gap-3 flex-wrap">
+                <span class="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-yellow-950/60 text-yellow-300 border border-yellow-500/30">National Telecom & Design</span>
+                <span class="text-xs font-mono text-dark-muted">2017 – 2020</span>
+              </div>
+              <h3 class="text-2xl font-bold text-white mt-2">mi kölbi & kölbi+ — National Telco Ecosystem</h3>
+              <p class="text-sm font-medium text-yellow-400">Senior Android Developer & UI/UX Mobile Designer (SysCo / Arkkosoft / Novacomp)</p>
+            </div>
+            <!-- Live Store Badges & Figma -->
+            <div class="flex flex-wrap items-center gap-2">
+              <a href="https://play.google.com/store/apps/details?id=cr.go.ice.mav.activity" target="_blank" rel="noopener noreferrer" class="store-btn">
+                <svg class="w-4 h-4 fill-current text-emerald-400" viewBox="0 0 24 24"><path d="M3.609 1.814L13.793 12 3.61 22.186c-.342-.317-.61-.83-.61-1.506V3.32c0-.676.268-1.189.61-1.506zM15.207 13.414l2.455 2.455-12.72 7.214 10.265-9.669zm2.455-5.283L15.207 10.586 4.942.917l12.72 7.214zM16.621 12l2.971-1.688c.846-.481.846-1.263 0-1.744L16.621 12zm0 0l2.971 1.688c.846.481.846 1.263 0 1.744L16.621 12z"/></svg>
+                <span>mi kölbi</span>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.ice.kolbimas" target="_blank" rel="noopener noreferrer" class="store-btn">
+                <svg class="w-4 h-4 fill-current text-emerald-400" viewBox="0 0 24 24"><path d="M3.609 1.814L13.793 12 3.61 22.186c-.342-.317-.61-.83-.61-1.506V3.32c0-.676.268-1.189.61-1.506zM15.207 13.414l2.455 2.455-12.72 7.214 10.265-9.669zm2.455-5.283L15.207 10.586 4.942.917l12.72 7.214zM16.621 12l2.971-1.688c.846-.481.846-1.263 0-1.744L16.621 12zm0 0l2.971 1.688c.846.481.846 1.263 0 1.744L16.621 12z"/></svg>
+                <span>kölbi+</span>
+              </a>
+              <a href="https://www.figma.com/file/SOMoZNXSdjv5gzaWbjhjRa/Mi-kolbi-App-update?node-id=175%3A1789" target="_blank" rel="noopener noreferrer" class="store-btn text-purple-300 border-purple-500/40">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M8 2h4a4 4 0 0 1 4 4 4 4 0 0 1-4 4H8V2zm0 8h4a4 4 0 0 1 4 4 4 4 0 0 1-4 4H8v-8zm-4 4a4 4 0 0 1 4-4v8a4 4 0 0 1-4-4zm4-8a4 4 0 0 1 4-4H8v8a4 4 0 0 1-4-4 4 4 0 0 1 4-4zm0 16a4 4 0 0 1-4-4 4 4 0 0 1 4-4v8z"/></svg>
+                <span>Figma Prototype ↗</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="lg:col-span-2 space-y-4 text-slate-300 text-sm leading-relaxed">
+              <p>
+                Dual role leading mobile UI/UX prototyping in Figma & Adobe XD and engineering native Android applications serving millions of mobile and home telecom subscribers for ICE (Instituto Costarricense de Electricidad).
+              </p>
+              <ul class="space-y-2.5 list-disc list-inside text-slate-300">
+                <li><strong class="text-white">End-to-End Design to Code:</strong> Translated complex telecommunications account management, billing, and roaming packages from interactive Figma wireframes into production native Android code.</li>
+                <li><strong class="text-white">Utility Integration:</strong> Also engineered Android enterprise modules for JASEC (Junta Administrativa del Servicio Eléctrico de Cartago).</li>
+              </ul>
+            </div>
+            <div class="bg-dark-surface p-5 rounded-2xl border border-dark-border flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-semibold text-dark-muted uppercase">Tech Stack</span>
+                <div class="flex flex-wrap gap-1.5 mt-3">
+                  <span class="badge-pill bg-yellow-950 text-yellow-300 border border-yellow-800">Android (Kotlin/Java)</span>
+                  <span class="badge-pill bg-yellow-950 text-yellow-300 border border-yellow-800">Figma Design</span>
+                  <span class="badge-pill bg-yellow-950 text-yellow-300 border border-yellow-800">Adobe XD</span>
+                  <span class="badge-pill bg-yellow-950 text-yellow-300 border border-yellow-800">Telco Billing APIs</span>
+                </div>
+              </div>
+              <div class="mt-6 pt-4 border-t border-dark-border text-xs text-dark-muted">
+                Key Impact: <strong>1M+ active telecom subscribers</strong> across Costa Rica.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6. Motiva Implants® US Clinical Trial -->
+        <article class="p-7 sm:p-9 rounded-3xl bg-dark-card border border-dark-border hover:border-purple-500/40 transition-all">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6 pb-6 border-b border-dark-border">
+            <div>
+              <div class="flex items-center gap-3 flex-wrap">
+                <span class="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-purple-950/60 text-purple-300 border border-purple-500/30">FDA Clinical Trial & Computer Vision</span>
                 <span class="text-xs font-mono text-dark-muted">2017 – 2018</span>
               </div>
-              <h4 class="text-xl font-bold text-white mb-2">Motiva Implants — FDA Clinical Trial System</h4>
-              <p class="text-xs text-purple-400 font-medium mb-4">Android Developer (Establishment Labs)</p>
-              <p class="text-sm text-slate-300 leading-relaxed mb-4">
-                Engineered a secure mobile tracking system for a <strong>10-year FDA clinical trial</strong> monitoring breast implant safety across thousands of patients and clinics. Implemented custom OCR/barcode parsing with Google Vision APIs with zero error margin, alongside offline patient registration and HIPAA-compliant data encryption.
+              <h3 class="text-2xl font-bold text-white mt-2">Motiva Implants® — 10-Year FDA Clinical Trial System</h3>
+              <p class="text-sm font-medium text-purple-400">Android & Vision Systems Developer (Establishment Labs)</p>
+            </div>
+            <!-- Live Store Badges & Open Source Lib -->
+            <div class="flex flex-wrap items-center gap-2">
+              <a href="https://play.google.com/store/apps/details?id=com.motivaimagine.motivaimagine_us_trial" target="_blank" rel="noopener noreferrer" class="store-btn">
+                <svg class="w-4 h-4 fill-current text-emerald-400" viewBox="0 0 24 24"><path d="M3.609 1.814L13.793 12 3.61 22.186c-.342-.317-.61-.83-.61-1.506V3.32c0-.676.268-1.189.61-1.506zM15.207 13.414l2.455 2.455-12.72 7.214 10.265-9.669zm2.455-5.283L15.207 10.586 4.942.917l12.72 7.214zM16.621 12l2.971-1.688c.846-.481.846-1.263 0-1.744L16.621 12zm0 0l2.971 1.688c.846.481.846 1.263 0 1.744L16.621 12z"/></svg>
+                <span>Google Play</span>
+              </a>
+              <a href="https://github.com/ax3Tech/motivaimagine-android-scanner" target="_blank" rel="noopener noreferrer" class="store-btn text-purple-300 border-purple-500/40">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg>
+                <span>Scanner Library (GitHub) ↗</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="lg:col-span-2 space-y-4 text-slate-300 text-sm leading-relaxed">
+              <p>
+                Engineered the secure mobile application for a 10-year FDA clinical trial studying breast implant medical safety across thousands of patients and clinics worldwide.
               </p>
+              <ul class="space-y-2.5 list-disc list-inside text-slate-300">
+                <li><strong class="text-white">Custom Computer Vision Scanner:</strong> Published open-source Android libraries (<code class="text-purple-300 font-mono text-xs">ax3Tech/motivaimagine-android-scanner</code>) utilizing Google Vision APIs to parse implant serial numbers with zero error margin.</li>
+                <li><strong class="text-white">HIPAA & FDA Standards:</strong> Implemented encrypted local patient persistence, secure medical communication channels, and audit trails.</li>
+              </ul>
             </div>
-            <div class="pt-4 border-t border-dark-border flex flex-wrap gap-1.5">
-              <span class="badge-pill bg-purple-950 text-purple-300 border border-purple-900">Kotlin / Java</span>
-              <span class="badge-pill bg-purple-950 text-purple-300 border border-purple-900">Google Vision</span>
-              <span class="badge-pill bg-purple-950 text-purple-300 border border-purple-900">FDA / HIPAA</span>
+            <div class="bg-dark-surface p-5 rounded-2xl border border-dark-border flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-semibold text-dark-muted uppercase">Tech Stack</span>
+                <div class="flex flex-wrap gap-1.5 mt-3">
+                  <span class="badge-pill bg-purple-950 text-purple-300 border border-purple-800">Kotlin / Java</span>
+                  <span class="badge-pill bg-purple-950 text-purple-300 border border-purple-800">Google Vision OCR</span>
+                  <span class="badge-pill bg-purple-950 text-purple-300 border border-purple-800">Custom Android Lib</span>
+                  <span class="badge-pill bg-purple-950 text-purple-300 border border-purple-800">FDA Compliance</span>
+                </div>
+              </div>
+              <div class="mt-6 pt-4 border-t border-dark-border text-xs text-dark-muted">
+                Key Result: <strong>Zero scanning errors</strong> across FDA clinical validation trials.
+              </div>
             </div>
-          </article>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPLETE DIRECTORY OF 16+ PRODUCTION APPS -->
+  <section id="app-directory" class="py-20 border-t border-dark-border bg-dark-surface/30">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+        <div>
+          <span class="text-xs font-mono font-semibold tracking-wider text-teal-400 uppercase">Complete Track Record</span>
+          <h2 class="text-3xl font-extrabold text-white tracking-tight mt-1">16+ Shipped Production Applications</h2>
+          <p class="text-dark-muted text-sm mt-2 max-w-xl">Direct links to applications launched on Google Play and Apple App Store across 10+ years.</p>
+        </div>
+        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-dark-card border border-dark-border text-xs text-slate-300 font-mono">
+          <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+          1,000,000+ Verified Downloads
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+
+        <!-- App Item: The Home Depot -->
+        <div class="p-5 rounded-2xl bg-dark-card border border-dark-border hover:border-teal-500/30 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-orange-400 uppercase tracking-wide">Enterprise Retail</span>
+              <span class="text-[10px] font-mono text-dark-muted">iOS</span>
+            </div>
+            <h4 class="text-base font-bold text-white mb-1">The Home Depot</h4>
+            <p class="text-xs text-slate-300 mb-4">Consumer e-commerce application serving millions of daily retail shoppers.</p>
+          </div>
+          <div class="pt-3 border-t border-dark-border flex items-center justify-between">
+            <a href="https://apps.apple.com/us/app/the-home-depot/id342527639" target="_blank" rel="noopener noreferrer" class="store-btn w-full justify-center">
+              <span>View on App Store ↗</span>
+            </a>
+          </div>
         </div>
 
+        <!-- App Item: Rappi -->
+        <div class="p-5 rounded-2xl bg-dark-card border border-dark-border hover:border-teal-500/30 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-red-400 uppercase tracking-wide">On-Demand Unicorn</span>
+              <span class="text-[10px] font-mono text-dark-muted">Android</span>
+            </div>
+            <h4 class="text-base font-bold text-white mb-1">Rappi & Partner Growth</h4>
+            <p class="text-xs text-slate-300 mb-4">High-throughput consumer delivery & merchant management platforms across LATAM.</p>
+          </div>
+          <div class="pt-3 border-t border-dark-border flex items-center gap-2">
+            <a href="https://play.google.com/store/apps/details?id=com.grability.rappi&hl=es_CR" target="_blank" rel="noopener noreferrer" class="store-btn flex-1 justify-center">
+              <span>Rappi</span>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.rappi.partners" target="_blank" rel="noopener noreferrer" class="store-btn flex-1 justify-center">
+              <span>Partners</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- App Item: Cardiogram -->
+        <div class="p-5 rounded-2xl bg-dark-card border border-dark-border hover:border-teal-500/30 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-rose-400 uppercase tracking-wide">MedTech & Wearables</span>
+              <span class="text-[10px] font-mono text-dark-muted">iOS & Android</span>
+            </div>
+            <h4 class="text-base font-bold text-white mb-1">Cardiogram: HeartIQ</h4>
+            <p class="text-xs text-slate-300 mb-4">Continuous cardiovascular telemetry and biometric sensor ingestion.</p>
+          </div>
+          <div class="pt-3 border-t border-dark-border flex items-center gap-2">
+            <a href="https://apps.apple.com/us/app/cardiogram-heartiq-migraineiq/id1000017994" target="_blank" rel="noopener noreferrer" class="store-btn flex-1 justify-center">
+              <span>App Store</span>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.cardiogram.v1" target="_blank" rel="noopener noreferrer" class="store-btn flex-1 justify-center">
+              <span>Google Play</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- App Item: DreamIQ -->
+        <div class="p-5 rounded-2xl bg-dark-card border border-dark-border hover:border-teal-500/30 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-teal-400 uppercase tracking-wide">Edge AI & Wearables</span>
+              <span class="text-[10px] font-mono text-dark-muted">iOS & Android</span>
+            </div>
+            <h4 class="text-base font-bold text-white mb-1">DreamIQ</h4>
+            <p class="text-xs text-slate-300 mb-4">AI sleep companion with on-device RAG, local SLMs, and smartwatch telemetry.</p>
+          </div>
+          <div class="pt-3 border-t border-dark-border flex items-center gap-2">
+            <a href="https://apps.apple.com/us/app/dreamiq-no-more-bad-nights/id6754757247" target="_blank" rel="noopener noreferrer" class="store-btn flex-1 justify-center">
+              <span>App Store</span>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.dreamiq.app" target="_blank" rel="noopener noreferrer" class="store-btn flex-1 justify-center">
+              <span>Google Play</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- App Item: mi kölbi & kölbi+ -->
+        <div class="p-5 rounded-2xl bg-dark-card border border-dark-border hover:border-teal-500/30 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-yellow-400 uppercase tracking-wide">National Telco</span>
+              <span class="text-[10px] font-mono text-dark-muted">Android</span>
+            </div>
+            <h4 class="text-base font-bold text-white mb-1">mi kölbi & kölbi+</h4>
+            <p class="text-xs text-slate-300 mb-4">National telecommunication services serving over 1M+ active subscribers in Costa Rica.</p>
+          </div>
+          <div class="pt-3 border-t border-dark-border flex items-center gap-2">
+            <a href="https://play.google.com/store/apps/details?id=cr.go.ice.mav.activity" target="_blank" rel="noopener noreferrer" class="store-btn flex-1 justify-center">
+              <span>mi kölbi</span>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.ice.kolbimas" target="_blank" rel="noopener noreferrer" class="store-btn flex-1 justify-center">
+              <span>kölbi+</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- App Item: Motiva Implants Trial -->
+        <div class="p-5 rounded-2xl bg-dark-card border border-dark-border hover:border-teal-500/30 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-purple-400 uppercase tracking-wide">FDA Clinical Trial</span>
+              <span class="text-[10px] font-mono text-dark-muted">Android</span>
+            </div>
+            <h4 class="text-base font-bold text-white mb-1">MotivaImplants® Trial</h4>
+            <p class="text-xs text-slate-300 mb-4">10-year FDA clinical trial mobile application with custom computer vision scanning.</p>
+          </div>
+          <div class="pt-3 border-t border-dark-border flex items-center justify-between">
+            <a href="https://play.google.com/store/apps/details?id=com.motivaimagine.motivaimagine_us_trial" target="_blank" rel="noopener noreferrer" class="store-btn w-full justify-center">
+              <span>View on Google Play ↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- App Item: OMNi Super App -->
+        <div class="p-5 rounded-2xl bg-dark-card border border-dark-border hover:border-teal-500/30 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-emerald-400 uppercase tracking-wide">Mobility & FinTech</span>
+              <span class="text-[10px] font-mono text-dark-muted">Android</span>
+            </div>
+            <h4 class="text-base font-bold text-white mb-1">OMNi — La Súper App</h4>
+            <p class="text-xs text-slate-300 mb-4">Bike-sharing, payments, and multi-service mobility ecosystem for Costa Rica.</p>
+          </div>
+          <div class="pt-3 border-t border-dark-border flex items-center justify-between">
+            <a href="https://play.google.com/store/apps/details?id=cr.omni.superapp&hl=es_CR" target="_blank" rel="noopener noreferrer" class="store-btn w-full justify-center">
+              <span>View on Google Play ↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- App Item: GAPO Suite -->
+        <div class="p-5 rounded-2xl bg-dark-card border border-dark-border hover:border-teal-500/30 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-blue-400 uppercase tracking-wide">Delivery & On-Demand</span>
+              <span class="text-[10px] font-mono text-dark-muted">iOS & Android</span>
+            </div>
+            <h4 class="text-base font-bold text-white mb-1">GAPO Ecosystem (3 Apps)</h4>
+            <p class="text-xs text-slate-300 mb-4">Customer marketplace, Driver tracking app, and Merchant provider portal.</p>
+          </div>
+          <div class="pt-3 border-t border-dark-border flex items-center gap-2">
+            <a href="https://apps.apple.com/us/app/gapo-comidas-servicios-y-mas/id1525776178" target="_blank" rel="noopener noreferrer" class="store-btn flex-1 justify-center">
+              <span>App Store</span>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.gapodelivery.markets&hl=en_IN" target="_blank" rel="noopener noreferrer" class="store-btn flex-1 justify-center">
+              <span>Google Play</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- App Item: Univoice -->
+        <div class="p-5 rounded-2xl bg-dark-card border border-dark-border hover:border-teal-500/30 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-pink-400 uppercase tracking-wide">EdTech & Streaming</span>
+              <span class="text-[10px] font-mono text-dark-muted">iOS & Android</span>
+            </div>
+            <h4 class="text-base font-bold text-white mb-1">Univoice</h4>
+            <p class="text-xs text-slate-300 mb-4">Language learning platform powered by music streaming, karaoke, and audio synchronization.</p>
+          </div>
+          <div class="pt-3 border-t border-dark-border flex items-center gap-2">
+            <a href="https://apps.apple.com/us/app/univoice/id1446390073" target="_blank" rel="noopener noreferrer" class="store-btn flex-1 justify-center">
+              <span>App Store</span>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.univoice&hl=en_IN" target="_blank" rel="noopener noreferrer" class="store-btn flex-1 justify-center">
+              <span>Google Play</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- App Item: UVU Student -->
+        <div class="p-5 rounded-2xl bg-dark-card border border-dark-border hover:border-teal-500/30 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-green-400 uppercase tracking-wide">Higher Education</span>
+              <span class="text-[10px] font-mono text-dark-muted">Android</span>
+            </div>
+            <h4 class="text-base font-bold text-white mb-1">UVU Student Mobile</h4>
+            <p class="text-xs text-slate-300 mb-4">Official Utah Valley University student portal with offline Floor persistence & OAuth2.</p>
+          </div>
+          <div class="pt-3 border-t border-dark-border flex items-center justify-between">
+            <a href="https://play.google.com/store/apps/details?id=edu.uvu.studentMobile" target="_blank" rel="noopener noreferrer" class="store-btn w-full justify-center">
+              <span>View on Google Play ↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- App Item: LS Engage -->
+        <div class="p-5 rounded-2xl bg-dark-card border border-dark-border hover:border-teal-500/30 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-sky-400 uppercase tracking-wide">Enterprise Legal</span>
+              <span class="text-[10px] font-mono text-dark-muted">iOS & Android</span>
+            </div>
+            <h4 class="text-base font-bold text-white mb-1">LS Engage (LegalShield)</h4>
+            <p class="text-xs text-slate-300 mb-4">Enterprise field sales & customer engagement suite for LegalShield associates.</p>
+          </div>
+          <div class="pt-3 border-t border-dark-border flex items-center gap-2">
+            <a href="https://apps.apple.com/us/app/ls-engage/id642297380" target="_blank" rel="noopener noreferrer" class="store-btn flex-1 justify-center">
+              <span>App Store</span>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.vl.infotrax.legalshield" target="_blank" rel="noopener noreferrer" class="store-btn flex-1 justify-center">
+              <span>Google Play</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- App Item: Hunt & JASEC & TransporteCR -->
+        <div class="p-5 rounded-2xl bg-dark-card border border-dark-border hover:border-teal-500/30 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-indigo-400 uppercase tracking-wide">Public Utilities & Mobility</span>
+              <span class="text-[10px] font-mono text-dark-muted">Multi-Platform</span>
+            </div>
+            <h4 class="text-base font-bold text-white mb-1">TransporteCR, JASEC & Hunt</h4>
+            <p class="text-xs text-slate-300 mb-4">Public transit route validation (ARESEP), electric utility services (JASEC), and Hunt MX.</p>
+          </div>
+          <div class="pt-3 border-t border-dark-border flex items-center gap-2">
+            <a href="https://play.google.com/store/apps/details?id=com.aresep.miruta" target="_blank" rel="noopener noreferrer" class="store-btn flex-1 justify-center">
+              <span>TransporteCR</span>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=go.cr.jasec" target="_blank" rel="noopener noreferrer" class="store-btn flex-1 justify-center">
+              <span>JASEC</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- UI/UX & DESIGN CRAFT -->
+  <section id="ui-ux" class="py-20 border-t border-dark-border bg-dark-bg/60">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="mb-12">
+        <span class="text-xs font-mono font-semibold tracking-wider text-teal-400 uppercase">Design Craft & Prototyping</span>
+        <h2 class="text-3xl font-extrabold text-white tracking-tight mt-1">Interactive UI/UX Prototypes</h2>
+        <p class="text-dark-muted text-sm mt-2 max-w-xl">Demonstrating end-to-end design thinking from user research and high-fidelity wireframes in Figma & Adobe XD to pixel-perfect production code.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Figma Card -->
+        <div class="p-7 rounded-3xl bg-dark-card border border-dark-border hover:border-purple-500/40 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-2 mb-3">
+              <span class="px-2.5 py-0.5 rounded-full text-xs font-bold uppercase bg-purple-950 text-purple-300 border border-purple-800">Figma Design System</span>
+              <span class="text-xs font-mono text-dark-muted">Telecom</span>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">Mi kölbi App Update — High-Fidelity Design</h3>
+            <p class="text-sm text-slate-300 leading-relaxed mb-6">
+              Complete design system, user journeys, navigation flow, and screen specifications for the national mobile telecom portal of Costa Rica.
+            </p>
+          </div>
+          <a href="https://www.figma.com/file/SOMoZNXSdjv5gzaWbjhjRa/Mi-kolbi-App-update?node-id=175%3A1789" target="_blank" rel="noopener noreferrer" class="store-btn justify-center text-purple-300 border-purple-500/40 py-2.5">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M8 2h4a4 4 0 0 1 4 4 4 4 0 0 1-4 4H8V2zm0 8h4a4 4 0 0 1 4 4 4 4 0 0 1-4 4H8v-8zm-4 4a4 4 0 0 1 4-4v8a4 4 0 0 1-4-4zm4-8a4 4 0 0 1 4-4H8v8a4 4 0 0 1-4-4 4 4 0 0 1 4-4zm0 16a4 4 0 0 1-4-4 4 4 0 0 1 4-4v8z"/></svg>
+            <span>Open in Figma (Live Prototype) ↗</span>
+          </a>
+        </div>
+
+        <!-- Adobe XD Card -->
+        <div class="p-7 rounded-3xl bg-dark-card border border-dark-border hover:border-pink-500/40 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-2 mb-3">
+              <span class="px-2.5 py-0.5 rounded-full text-xs font-bold uppercase bg-pink-950 text-pink-300 border border-pink-800">Adobe XD Prototype</span>
+              <span class="text-xs font-mono text-dark-muted">Interactive</span>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">Interactive Telecom Experience Prototype</h3>
+            <p class="text-sm text-slate-300 leading-relaxed mb-6">
+              Fully interactive, fullscreen clickable prototype built in Adobe XD testing transition dynamics, user flows, and account interactions.
+            </p>
+          </div>
+          <a href="https://xd.adobe.com/view/5f5ce0a1-e34b-4264-7bb4-48f2afa226cb-296d/?fullscreen" target="_blank" rel="noopener noreferrer" class="store-btn justify-center text-pink-300 border-pink-500/40 py-2.5">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M5.5 2h13A3.5 3.5 0 0 1 22 5.5v13a3.5 3.5 0 0 1-3.5 3.5h-13A3.5 3.5 0 0 1 2 18.5v-13A3.5 3.5 0 0 1 5.5 2z"/></svg>
+            <span>Open in Adobe XD (Interactive View) ↗</span>
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -506,10 +895,10 @@
           <ul class="text-sm text-slate-300 space-y-2">
             <li>• Cross-Functional Tech Leadership</li>
             <li>• CI/CD (GitHub Actions, Codemagic)</li>
-            <li>• Docker & Cloud Container Apps</li>
+            <li>• Docker & Container Services</li>
             <li>• AWS & Azure AI Services</li>
             <li>• Sentry & Distributed Tracing</li>
-            <li>• Automated Testing (Unit/Integration)</li>
+            <li>• Automated Test Suites (Unit/Integration)</li>
           </ul>
         </div>
       </div>
@@ -546,57 +935,6 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- OPEN SOURCE SPOTLIGHT -->
-  <section class="py-20 border-t border-dark-border">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="mb-14">
-        <span class="text-xs font-mono font-semibold tracking-wider text-teal-400 uppercase">Public Code & Contributions</span>
-        <h2 class="text-3xl font-extrabold text-white tracking-tight mt-1">Open Source & Technical Engineering</h2>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <!-- Project 1 -->
-        <a href="https://github.com/Blackspyda17/flutter_onnxruntime" target="_blank" rel="noopener noreferrer" class="p-6 rounded-2xl bg-dark-card border border-dark-border hover:border-teal-500/40 transition-all group block">
-          <div class="flex items-center justify-between mb-3">
-            <span class="text-xs font-mono text-teal-400">Plugin / Native Fork</span>
-            <svg class="w-4 h-4 text-dark-muted group-hover:text-teal-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
-          </div>
-          <h4 class="text-lg font-bold text-white group-hover:text-teal-300 transition-colors mb-2">flutter_onnxruntime</h4>
-          <p class="text-xs text-slate-300 leading-relaxed mb-4">
-            Native wrapper plugin for Microsoft ONNX Runtime with patched multi-threaded <code class="text-teal-300">Dispatchers.IO</code> matrix operations for lag-free on-device inference.
-          </p>
-          <span class="text-xs font-mono text-dark-muted">C++ • Kotlin • Dart</span>
-        </a>
-
-        <!-- Project 2 -->
-        <a href="https://github.com/Blackspyda17/ios-challenge-2026" target="_blank" rel="noopener noreferrer" class="p-6 rounded-2xl bg-dark-card border border-dark-border hover:border-teal-500/40 transition-all group block">
-          <div class="flex items-center justify-between mb-3">
-            <span class="text-xs font-mono text-teal-400">Architectural Showcase</span>
-            <svg class="w-4 h-4 text-dark-muted group-hover:text-teal-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
-          </div>
-          <h4 class="text-lg font-bold text-white group-hover:text-teal-300 transition-colors mb-2">ios-challenge-2026</h4>
-          <p class="text-xs text-slate-300 leading-relaxed mb-4">
-            Production-grade architecture solution demonstrating modern Swift design patterns, debugging methodology, reactive networking, and automated test coverage.
-          </p>
-          <span class="text-xs font-mono text-dark-muted">Swift • Clean Architecture</span>
-        </a>
-
-        <!-- Project 3 -->
-        <a href="https://github.com/Blackspyda17/ZubaleSecureCheckIn" target="_blank" rel="noopener noreferrer" class="p-6 rounded-2xl bg-dark-card border border-dark-border hover:border-teal-500/40 transition-all group block">
-          <div class="flex items-center justify-between mb-3">
-            <span class="text-xs font-mono text-teal-400">Security & Geofencing</span>
-            <svg class="w-4 h-4 text-dark-muted group-hover:text-teal-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
-          </div>
-          <h4 class="text-lg font-bold text-white group-hover:text-teal-300 transition-colors mb-2">ZubaleSecureCheckIn</h4>
-          <p class="text-xs text-slate-300 leading-relaxed mb-4">
-            Anti-fraud mobile check-in engine using geofence presence validation and cryptographic GPS/timestamp burn-in over camera frames.
-          </p>
-          <span class="text-xs font-mono text-dark-muted">TypeScript • Security • Sensors</span>
-        </a>
       </div>
     </div>
   </section>
